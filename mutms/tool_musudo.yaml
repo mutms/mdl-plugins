@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/plugin.schema.json
+name: mutms/tool_musudo
+title: Privileged sessions
+description: Sudo-like privilege escalation with optional MFA.
+relpath: public/admin/tool/musudo
+source:
+  git:
+    remotes:
+      origin: https://github.com/mutms/moodle-tool_musudo.git
+  composer: mutms/moodle-tool_musudo
+homepage: https://github.com/mutms/moodle-tool_musudo
+license: GPL-3.0-or-later
+contributed_by: mutms
+requirements:
+  MOODLE_405_STABLE:
+    mdlbranches: ["405"]
+    plugins: [mutms/tool_mulib]
+  MOODLE_500_STABLE:
+    mdlbranches: ["500", "501", "502"]
+    plugins: [mutms/tool_mulib]

@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/plugin.schema.json
+name: mutms/tool_mupwned
+title: Compromised passwords
+description: Checks passwords against Have I Been Pwned via the k-Anonymity API.
+relpath: public/admin/tool/mupwned
+source:
+  git:
+    remotes:
+      origin: https://github.com/mutms/moodle-tool_mupwned.git
+  composer: mutms/moodle-tool_mupwned
+homepage: https://github.com/mutms/moodle-tool_mupwned
+license: GPL-3.0-or-later
+contributed_by: mutms
+requirements:
+  MOODLE_405_STABLE:
+    mdlbranches: ["405"]
+    plugins: [mutms/tool_mulib]
+  MOODLE_500_STABLE:
+    mdlbranches: ["500", "501", "502"]
+    plugins: [mutms/tool_mulib]

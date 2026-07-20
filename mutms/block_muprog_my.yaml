@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/plugin.schema.json
+name: mutms/block_muprog_my
+title: My Programs block
+description: Dashboard block showing allocated programs.
+relpath: public/blocks/muprog_my
+source:
+  git:
+    remotes:
+      origin: https://github.com/mutms/moodle-block_muprog_my.git
+  composer: mutms/moodle-block_muprog_my
+homepage: https://github.com/mutms/moodle-block_muprog_my
+license: GPL-3.0-or-later
+contributed_by: mutms
+requirements:
+  MOODLE_405_STABLE:
+    mdlbranches: ["405"]
+    plugins: [mutms/tool_muprog, mutms/tool_mulib]
+  MOODLE_500_STABLE:
+    mdlbranches: ["500", "501", "502"]
+    plugins: [mutms/tool_muprog, mutms/tool_mulib]

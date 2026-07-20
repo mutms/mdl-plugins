@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/plugin.schema.json
+name: mutms/tool_muhome
+title: Custom homepages
+description: Per-tenant/cohort landing pages with primary nav integration.
+relpath: public/admin/tool/muhome
+source:
+  git:
+    remotes:
+      origin: https://github.com/mutms/moodle-tool_muhome.git
+  composer: mutms/moodle-tool_muhome
+homepage: https://github.com/mutms/moodle-tool_muhome
+license: GPL-3.0-or-later
+contributed_by: mutms
+requirements:
+  MOODLE_405_STABLE:
+    mdlbranches: ["405"]
+    plugins: [mutms/tool_mulib]
+  MOODLE_500_STABLE:
+    mdlbranches: ["500", "501", "502"]
+    plugins: [mutms/tool_mulib]

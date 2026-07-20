@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/plugin.schema.json
+name: mutms/tool_certificate
+title: Certificates
+description: PDF certificate generation. MuTMS fork of moodleworkplace/tool_certificate carrying hotfixes.
+relpath: public/admin/tool/certificate
+source:
+  git:
+    remotes:
+      origin: https://github.com/mutms/moodle-tool_certificate.git
+      upstream: https://github.com/moodleworkplace/moodle-tool_certificate.git
+homepage: https://github.com/mutms/moodle-tool_certificate
+license: GPL-3.0-or-later
+contributed_by: mutms
+requirements:
+  MOODLE_400_STABLE:
+    mdlbranches: ["405"]
+  MOODLE_500_STABLE:
+    mdlbranches: ["500", "501"]
+  MOODLE_502_STABLE:
+    mdlbranches: ["502"]
