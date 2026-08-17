@@ -6,11 +6,15 @@ mudev's `docs/plugin-format.md` for the format and the embedded JSON Schema.
 
 ## License & contributing
 
-The catalogue data is licensed **CC BY 4.0** ([LICENSE](LICENSE)) — free to share, adapt, and
-use commercially. The **attribution required by the license includes retaining each entry's
-`contributed_by` value** (alongside crediting the MuTMS catalogue). Contributions are welcome
-under the same license: add a plugin YAML with your `contributed_by`, and that credit travels
-with the entry wherever the data is reused.
+The catalogue data is dedicated to the public domain under **CC0 1.0** ([LICENSE](LICENSE)) —
+copy, adapt and use it for anything, commercially or not, with no attribution required. Each
+entry's `contributed_by` value records who wrote it; keeping that credit when you reuse an
+entry is appreciated, but it is a courtesy, not a license condition. Contributions are welcome
+under the same terms: by adding a plugin YAML you dedicate it to the public domain too (add
+your `contributed_by` so the courtesy credit can travel with it).
+
+Data imported from external databases keeps its own license; any such import lives in a
+clearly marked location with its source and license stated.
 
 ## Trademarks
 
