@@ -7,7 +7,6 @@ source:
   git:
     remotes:
       origin: https://github.com/mutms/moodle-mod_mudeck.git
-  composer: mutms/moodle-mod_mudeck
 homepage: https://github.com/mutms/moodle-mod_mudeck
 license: GPL-3.0-or-later
 contributed_by: mutms
