@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/plugin.schema.json
+name: mutms/mod_mudeck
+title: Markdown slide deck
+description: Markdown slide deck activity module for Moodle LMS.
+relpath: public/mod/mudeck
+source:
+  git:
+    remotes:
+      origin: https://github.com/mutms/moodle-mod_mudeck.git
+  composer: mutms/moodle-mod_mudeck
+homepage: https://github.com/mutms/moodle-mod_mudeck
+license: GPL-3.0-or-later
+contributed_by: mutms
+requirements:
+  MOODLE_503_DEV:
+    mdlbranches: ["503"]
