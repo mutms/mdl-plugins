@@ -13,3 +13,4 @@ contributed_by: mutms
 requirements:
   MOODLE_503_DEV:
     mdlbranches: ["503"]
+    plugins: [mutms/tool_mulib]

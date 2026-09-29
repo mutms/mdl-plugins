@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/plugin.schema.json
+name: mutms/auth_musaml
+title: SAML authentication
+description: MuTMS SAML authentication for Moodle LMS.
+relpath: public/auth/musaml
+source:
+  git:
+    remotes:
+      origin: https://github.com/mutms/moodle-auth_musaml.git
+homepage: https://github.com/mutms/moodle-auth_musaml
+license: GPL-3.0-or-later
+contributed_by: mutms
+requirements:
+  MOODLE_503_DEV:
+    mdlbranches: ["503"]
+    plugins: [mutms/tool_mulib]
