@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mutms/mudev/main/schema/plugin.schema.json
+name: mutms/tool_mucohort
+title: Advanced cohort management
+description: MuTMS Advanced cohort management plugin.
+relpath: public/admin/tool/mucohort
+source:
+  git:
+    remotes:
+      origin: https://github.com/mutms/moodle-tool_mucohort.git
+homepage: https://github.com/mutms/moodle-tool_mucohort
+license: GPL-3.0-or-later
+contributed_by: mutms
+requirements:
+  MOODLE_503_DEV:
+    mdlbranches: ["503"]
+    plugins: [mutms/tool_mulib]
